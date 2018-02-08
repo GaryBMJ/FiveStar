@@ -1,0 +1,208 @@
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;   
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Times New Roman",sans-serif;
+    font-size: 15px; 
+    
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 150px;
+    height:auto;
+    float: left;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(iphone-7-plus-clear-case.jpg);
+    height:auto;
+    background-size:cover;
+    background-position: center;
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align:center;
+    margin-top: 275px;
+}
+
+h2
+{
+    color: white;
+}
+
+p1
+{
+    margin-left: 350px;   
+}
+
+p2
+{
+    margin-left:80px;   
+}
+
+I1
+{
+    position:absolute;
+    margin-left:430px;
+    top: 200px;
+
+}
+
+T1
+{
+    position:absolute;
+    left:685px;
+    top:500px;		
+}
+
+T1A
+{
+    position:absolute;
+    left:683px;
+    top:530px;		
+}
+
+
+I2
+{
+    position:absolute;
+    margin-left:40px;
+    top: 475px;
+}
+
+T2
+{
+    position:absolute;
+    left:310px;
+    top:770px;		
+}
+
+T1B
+{
+    position:absolute;
+    left:230px;
+    top:800px;		
+}
+
+I3
+{
+    position:absolute;
+    margin-left:830px;
+    top: 475px;
+    
+}
+
+T3
+{
+    position:absolute;
+    left:1055px;
+    top:770px;		
+}
+
+T1C
+{
+    position:absolute;
+    left:1000px;
+    top:800px;		
+}
+
+I4
+{
+    position:absolute;
+    margin-left:630px;
+    top: 900px;
+}
+
+T4
+{
+    position:absolute;
+    left:880px;
+    top:1200px;		
+}
+
+T1D
+{
+    position:absolute;
+    left:820px;
+    top:1230px;		
+}
+
+I5
+{
+    position:absolute;
+    margin-left:230px;
+    top: 900px;
+}
+
+T5
+{
+    position:absolute;
+    left:470px;
+    top:1200px;		
+}
+
+T1E
+{
+    position:absolute;
+    left:460px;
+    top:1230px;		
+}
+
+I6
+{
+    position:absolute;
+    left:1px;
+    top:90px;
+}
+
+.pp img
+{
+    border-radius: 50%;
+}
+
+article
+{
+    padding: 10em;
+    font-family: sans-serif; 
+    margin-left: auto;
+}
+
+
+

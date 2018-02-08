@@ -1,0 +1,273 @@
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;   
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Times New Roman",sans-serif;
+    font-size: 15px; 
+    
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 150px;
+    height:auto;
+    float: left;
+}
+
+
+
+.btn
+{
+    border: 1px solid white;
+    padding: 15px 70px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    font-family: "Times New Roman", sans-serif;
+    position: relative;
+}
+
+.btn-two
+{
+    font-family: "Times New Roman", sans-serif;
+    position: relative;
+}
+
+.btn-three
+{
+    font-family: "Times New Roman", sans-serif;
+    position: relative;
+}
+
+
+.btn-one:hover
+{
+    background-color: darkorange;
+    transition: all 0.1s ease-in
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.1s ease-in
+}
+
+.btn-three:hover
+{
+    background-color: darkorange;
+    transition: all 0.1s ease-in
+}
+
+.container1
+{
+    margin-top: 0;
+    position: relative;
+}
+.center 
+{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(iphone-7-plus-clear-case.jpg);
+    height:auto;
+    background-size:cover;
+    background-position: center;
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+article
+{
+    padding: 10em;
+    font-family: sans-serif; 
+    margin-left: auto;
+}
+
+
+ 
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+ 
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+ 
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+ 
+ 
+/* Left Column */
+.left-column img {
+  width: 92%;
+  position: absolute;
+  left: -2%;
+  top: 9%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+ 
+.left-column img.active {
+  opacity: 1;
+}
+ 
+ 
+/* Right Column */
+ 
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.product-description span {
+  font-size: 18px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: bold;
+  font-size: 52px;
+  color: white;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  color: whitesmoke;
+  line-height: 24px;
+}
+ 
+ 
+/* Product Color */
+.product-color {
+  margin-bottom: 30px;
+}
+.color-choose div {
+  display: inline-block;
+}
+ 
+.color-choose input[type="radio"] {
+  display: none;
+}
+ 
+.color-choose input[type="radio"] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+.color-choose input[type="radio"] + label span {
+  border: 2px solid white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+ 
+.color-choose input[type="radio"]#black + label span {
+  background-color: black;
+}
+.color-choose input[type="radio"]#white + label span {
+  background-color: white;
+}
+.color-choose input[type="radio"]#grey + label span {
+  background-color: grey;
+}
+.color-choose input[type="radio"]#red + label span {
+  background-color: red;
+}
+.color-choose input[type="radio"]#blue + label span {
+  background-color: blue;
+}
+
+ 
+.color-choose input[type="radio"]:checked + label span {
+  background-image: url(check-icn.png);
+    background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ 
+ 
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: white;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color: darkblue;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+
+.cart-btn:hover {
+  background-color: greenyellow;
+}
+ 

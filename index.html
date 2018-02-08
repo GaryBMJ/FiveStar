@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Five Star</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+  
+</head> 
+<body>
+    
+    <header>
+    
+        <div class="row">
+            <div class="logo">
+            <img src="star.jpg">
+            </div>    
+        <ul class="main-nav">
+            <li class=""><a href="index.html">HOME</a></li>
+            <li class=""><a href="product.html">PRODUCT</a></li>
+            <li class=""><a href="aboutus.html">ABOUT US</a></li>
+            <li class=""><a href="contact.html">CONTACT</a></li>                         
+        </ul>
+        </div>
+        
+    </header>
+    
+    <article> 
+        <div class="marquee">
+        <marquee direction="left">Hi there, we are the IPhone case expert. We're selling phone case for IPhone X, IPhone 8 and IPhone 8 Plus </marquee>
+        </div>
+        
+<div class="slide">
+  <img class="mySlides" src="IphoneX.png" style="width:100%">
+  <img class="mySlides" src="iphone8.jpg" style="width:100%">
+  <img class="mySlides" src="iphone8plus.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+
+        
+    </article>    
+    
+    <section>
+        <div class="btn-one"></div>
+        <a href="product.html" class="btn btn-one">Explore more</a>
+        <a href="aboutus.html" class="btn btn-one">Know Us</a>
+    </section>
+    
+    </body>    
+    
+</html>
